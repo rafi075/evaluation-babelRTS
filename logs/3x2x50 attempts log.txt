@@ -1,0 +1,3056 @@
+denver:~/cs514$ python evalBabelRTS.py
+commons-collections src/main/java src/test/java java *.java
+HEAD is now at 64ed061e Collections-817: Update estimateN, estimateIntersection and estimateUnion
+Revision Build sucessful. Running babelRTS
+Mutation Number:  0  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/set', 'AbstractSerializableSetDecorator.java']  Line Count  71
+Eligible line:      @SuppressWarnings("unchecked")
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  1  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/sequence', 'EditCommand.java']  Line Count  83
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/list', 'TreeList.java']  Line Count  1125
+Eligible line:              value = obj;
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  1
+Rel Path:  src/main/java/org/apache/commons/collections4/list/TreeList.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  0  error_by_babelRTS  0  failure_by_babelRTS  0
+Not Killed By BabelRTS
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  2  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/multiset', 'AbstractMapMultiSet.java']  Line Count  553
+Eligible line:              parent.size--;
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  2
+Rel Path:  src/main/java/org/apache/commons/collections4/multiset/AbstractMapMultiSet.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  21  error_by_babelRTS  21  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  3  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bidimap', 'DualTreeBidiMap.java']  Line Count  412
+Eligible line:          @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  4  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'CloneTransformer.java']  Line Count  72
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'MultiKeyMap.java']  Line Count  904
+Eligible line:              (key2 == multi.getKey(1) || key2 != null && key2.equals(multi.getKey(1))) &&
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  5  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'FactoryTransformer.java']  Line Count  83
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4', 'IteratorUtils.java']  Line Count  1443
+Eligible line:      @SuppressWarnings("rawtypes")
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  6  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'package-info.java']  Line Count  54
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/keyvalue', 'MultiKey.java']  Line Count  332
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bag', 'UnmodifiableSortedBag.java']  Line Count  162
+Eligible line:          super(bag);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  3
+Rel Path:  src/main/java/org/apache/commons/collections4/bag/UnmodifiableSortedBag.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  17  error_by_babelRTS  2  failure_by_babelRTS  15
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  7  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4', 'PredicateUtils.java']  Line Count  526
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'AnyPredicate.java']  Line Count  113
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/splitmap', 'AbstractIterableGetMapDecorator.java']  Line Count  137
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'TransformedSortedMap.java']  Line Count  166
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bloomfilter', 'Shape.java']  Line Count  440
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bidimap', 'AbstractOrderedBidiMapDecorator.java']  Line Count  94
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  8  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4', 'IterableMap.java']  Line Count  44
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/set', 'UnmodifiableSortedSet.java']  Line Count  160
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'EmptyIterator.java']  Line Count  73
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bag', 'TransformedSortedBag.java']  Line Count  131
+Eligible line:              @SuppressWarnings("unchecked") // bag is type E
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  9  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'UnmodifiableListIterator.java']  Line Count  124
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  10  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bloomfilter', 'SimpleBloomFilter.java']  Line Count  195
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  11  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'ReferenceMap.java']  Line Count  199
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/keyvalue', 'MultiKey.java']  Line Count  332
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'AbstractOrderedMapIteratorDecorator.java']  Line Count  105
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  12  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/set', 'package-info.java']  Line Count  40
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bag', 'TreeBag.java']  Line Count  145
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  13  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/list', 'CursorableLinkedList.java']  Line Count  613
+Eligible line:                  it.remove();
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  14  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'FalsePredicate.java']  Line Count  69
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'AbstractListIteratorDecorator.java']  Line Count  108
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  15  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bag', 'package-info.java']  Line Count  38
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/multimap', 'AbstractSetValuedMap.java']  Line Count  132
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/set', 'PredicatedSortedSet.java']  Line Count  129
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/comparators', 'ReverseComparator.java']  Line Count  120
+Eligible line:              final ReverseComparator<?> thatrc = (ReverseComparator<?>) object;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  16  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/comparators', 'TransformingComparator.java']  Line Count  131
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4', 'Trie.java']  Line Count  48
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4', 'ResettableListIterator.java']  Line Count  32
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'NOPClosure.java']  Line Count  68
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bidimap', 'UnmodifiableSortedBidiMap.java']  Line Count  155
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'NullIsFalsePredicate.java']  Line Count  86
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4', 'SetUtils.java']  Line Count  657
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bag', 'AbstractSortedBagDecorator.java']  Line Count  81
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'AbstractEmptyIterator.java']  Line Count  74
+Eligible line:          throw new IllegalStateException("Iterator contains no elements");
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  4
+Rel Path:  src/main/java/org/apache/commons/collections4/iterators/AbstractEmptyIterator.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  9  error_by_babelRTS  9  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  17  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'PermutationIterator.java']  Line Count  156
+Eligible line:              keys[value - 1] = value;
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  5
+Rel Path:  src/main/java/org/apache/commons/collections4/iterators/PermutationIterator.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  5  error_by_babelRTS  5  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  18  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/queue', 'PredicatedQueue.java']  Line Count  123
+Eligible line:          super(queue, predicate);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  19  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'ReverseListIterator.java']  Line Count  183
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bag', 'AbstractBagDecorator.java']  Line Count  97
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'TransformIterator.java']  Line Count  138
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/multiset', 'AbstractMapMultiSet.java']  Line Count  553
+Eligible line:          final int oldCount = mut != null ? mut.value : 0;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  20  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'AbstractIteratorDecorator.java']  Line Count  46
+Eligible line:          super(iterator);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  21  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bag', 'TransformedSortedBag.java']  Line Count  131
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'CloneTransformer.java']  Line Count  72
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4', 'Put.java']  Line Count  65
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'InstantiateFactory.java']  Line Count  137
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bidimap', 'AbstractSortedBidiMapDecorator.java']  Line Count  95
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bloomfilter', 'BitCountProducer.java']  Line Count  126
+Eligible line:              @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  22  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4', 'OrderedMap.java']  Line Count  73
+Eligible line:      K lastKey();
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  23  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'package-info.java']  Line Count  54
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'ListIteratorWrapper.java']  Line Count  263
+Eligible line:              final ListIterator<?> li = (ListIterator<?>) iterator;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  24  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/sequence', 'CommandVisitor.java']  Line Count  146
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4', 'MultiMap.java']  Line Count  169
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  25  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/trie/analyzer', 'package-info.java']  Line Count  21
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/collection', 'AbstractCollectionDecorator.java']  Line Count  185
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  26  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'IteratorEnumeration.java']  Line Count  91
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  27  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'NullIsFalsePredicate.java']  Line Count  86
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  28  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/list', 'TreeList.java']  Line Count  1125
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  29  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/set', 'TransformedNavigableSet.java']  Line Count  173
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  30  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bloomfilter', 'ArrayCountingBloomFilter.java']  Line Count  258
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  31  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/trie/analyzer', 'package-info.java']  Line Count  21
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bag', 'SynchronizedSortedBag.java']  Line Count  108
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  32  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/keyvalue', 'MultiKey.java']  Line Count  332
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  33  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'CompositeMap.java']  Line Count  567
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4', 'Get.java']  Line Count  95
+Eligible line:      Set<java.util.Map.Entry<K, V>> entrySet();
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  34  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'HashedMap.java']  Line Count  124
+Eligible line:          super(DEFAULT_CAPACITY, DEFAULT_LOAD_FACTOR, DEFAULT_THRESHOLD);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  6
+Rel Path:  src/main/java/org/apache/commons/collections4/map/HashedMap.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  20  error_by_babelRTS  0  failure_by_babelRTS  20
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  35  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'IfClosure.java']  Line Count  152
+Eligible line:          this(predicate, trueClosure, NOPClosure.nopClosure());
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  36  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'SingletonIterator.java']  Line Count  124
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/splitmap', 'AbstractIterableGetMapDecorator.java']  Line Count  137
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bloomfilter', 'Shape.java']  Line Count  440
+Eligible line:          final Shape shape = new Shape(numberOfHashFunctions, numberOfBits);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  37  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'PredicatedMap.java']  Line Count  187
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'PredicatedMap.java']  Line Count  187
+Eligible line:              throw new IllegalArgumentException("Cannot add key - Predicate rejected it");
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  7
+Rel Path:  src/main/java/org/apache/commons/collections4/map/PredicatedMap.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  1  error_by_babelRTS  1  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  38  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'PrototypeFactory.java']  Line Count  202
+Eligible line:                  iCloneMethod = iPrototype.getClass().getMethod("clone", (Class[]) null);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  39  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4', 'ResettableIterator.java']  Line Count  38
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'WhileClosure.java']  Line Count  120
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4', 'BoundedCollection.java']  Line Count  51
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4', 'FluentIterable.java']  Line Count  491
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'StringValueTransformer.java']  Line Count  70
+Eligible line:      @SuppressWarnings("unchecked")
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  40  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/sequence', 'ReplacementsHandler.java']  Line Count  52
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'PrototypeFactory.java']  Line Count  202
+Eligible line:                  throw new FunctorException(ex);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  41  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'FixedSizeMap.java']  Line Count  174
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/list', 'NodeCachingLinkedList.java']  Line Count  248
+Eligible line:          super.removeAllNodes();
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  8
+Rel Path:  src/main/java/org/apache/commons/collections4/list/NodeCachingLinkedList.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  2  error_by_babelRTS  2  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  42  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/list', 'AbstractLinkedList.java']  Line Count  1080
+Eligible line:              checkModCount();
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  43  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'TransformerClosure.java']  Line Count  84
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/multimap', 'AbstractSetValuedMap.java']  Line Count  132
+Eligible line:          @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  44  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4', 'EnumerationUtils.java']  Line Count  112
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/list', 'LazyList.java']  Line Count  190
+Eligible line:          this.factory = null;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  45  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/multiset', 'AbstractMapMultiSet.java']  Line Count  553
+Eligible line:          final int oldCount = mut.value;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  46  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'AbstractMapDecorator.java']  Line Count  152
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  47  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/queue', 'SynchronizedQueue.java']  Line Count  141
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'PeekingIterator.java']  Line Count  157
+Eligible line:              throw new NoSuchElementException();
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  48  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'package-info.java']  Line Count  27
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'LazySortedMap.java']  Line Count  167
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/queue', 'PredicatedQueue.java']  Line Count  123
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  49  Revision:  64ed061e6a2a89f251ebd26dd52650d56025b5c1
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'LazySortedMap.java']  Line Count  167
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'UniqueFilterIterator.java']  Line Count  42
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/queue', 'UnmodifiableQueue.java']  Line Count  159
+Eligible line:      @SuppressWarnings("unchecked")
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Previous HEAD position was 64ed061e Collections-817: Update estimateN, estimateIntersection and estimateUnion
+HEAD is now at 7b2c1b2b Update changes.xml
+Revision Build sucessful. Running babelRTS
+Mutation Number:  0  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/sequence', 'SequencesComparator.java']  Line Count  346
+Eligible line:                      vDown[i] = ++x;
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  9
+Rel Path:  src/main/java/org/apache/commons/collections4/sequence/SequencesComparator.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  2  error_by_babelRTS  2  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  1  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'MultiKeyMap.java']  Line Count  904
+Eligible line:          final MapIterator<MultiKey<? extends K>, V> it = mapIterator();
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  2  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'UnmodifiableMapIterator.java']  Line Count  98
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bidimap', 'UnmodifiableBidiMap.java']  Line Count  135
+Eligible line:          final Set<V> set = super.values();
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  3  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4', 'MultiMapUtils.java']  Line Count  245
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bloomfilter', 'package-info.java']  Line Count  102
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4', 'Factory.java']  Line Count  46
+Eligible line:  @FunctionalInterface
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  4  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4', 'SortedBag.java']  Line Count  52
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bloomfilter', 'IndexProducer.java']  Line Count  127
+Eligible line:                      int i = wordIdx;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  5  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/multiset', 'AbstractMultiSet.java']  Line Count  489
+Eligible line:              itemCount--;
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  6  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'EqualPredicate.java']  Line Count  120
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'PredicateDecorator.java']  Line Count  41
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bag', 'CollectionSortedBag.java']  Line Count  151
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  7  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/multiset', 'AbstractMultiSetDecorator.java']  Line Count  106
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  8  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4', 'Closure.java']  Line Count  46
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'FixedSizeMap.java']  Line Count  174
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  9  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/multimap', 'UnmodifiableMultiValuedMap.java']  Line Count  152
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  10  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'AbstractSortedMapDecorator.java']  Line Count  172
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  11  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'ConstantTransformer.java']  Line Count  128
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bag', 'TreeBag.java']  Line Count  145
+Eligible line:          this();
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  12  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'PassiveExpiringMap.java']  Line Count  535
+Eligible line:              this.timeToLiveMillis = timeToLiveMillis;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  13  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4', 'SortedBag.java']  Line Count  52
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bloomfilter', 'CountingBloomFilter.java']  Line Count  284
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/list', 'LazyList.java']  Line Count  190
+Eligible line:              decorated().add(null);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  10
+Rel Path:  src/main/java/org/apache/commons/collections4/list/LazyList.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  2  error_by_babelRTS  2  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  14  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bloomfilter', 'IndexFilter.java']  Line Count  133
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'ForClosure.java']  Line Count  105
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4', 'package-info.java']  Line Count  26
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bidimap', 'AbstractDualBidiMap.java']  Line Count  815
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bag', 'PredicatedSortedBag.java']  Line Count  108
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'SwitchTransformer.java']  Line Count  198
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'ListIteratorWrapper.java']  Line Count  263
+Eligible line:          int removeIndex = currentIndex;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  15  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4', 'SortedBidiMap.java']  Line Count  59
+Eligible line:      Comparator<? super V> valueComparator();
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  16  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'NullPredicate.java']  Line Count  69
+Eligible line:      @SuppressWarnings("rawtypes")
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  17  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/keyvalue', 'UnmodifiableMapEntry.java']  Line Count  76
+Eligible line:          super(entry.getKey(), entry.getValue());
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  18  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/list', 'AbstractLinkedList.java']  Line Count  1080
+Eligible line:              size++;
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  11
+Rel Path:  src/main/java/org/apache/commons/collections4/list/AbstractLinkedList.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  3  error_by_babelRTS  3  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  19  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bloomfilter', 'BitMapProducer.java']  Line Count  155
+Eligible line:          final long[] result = new long[BitMap.numberOfBitMaps(numberOfBits)];
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  20  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bag', 'HashBag.java']  Line Count  85
+Eligible line:          this();
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  12
+Rel Path:  src/main/java/org/apache/commons/collections4/bag/HashBag.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  6  error_by_babelRTS  0  failure_by_babelRTS  6
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  21  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'ReverseListIterator.java']  Line Count  183
+Eligible line:          validForUpdate = true;
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  22  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/comparators', 'TransformingComparator.java']  Line Count  131
+Eligible line:          int total = 17;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  23  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'PeekingIterator.java']  Line Count  157
+Eligible line:          slot = null;
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  24  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'TransformedSortedMap.java']  Line Count  166
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bloomfilter', 'Shape.java']  Line Count  440
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  25  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'package-info.java']  Line Count  54
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/trie/analyzer', 'StringKeyAnalyzer.java']  Line Count  135
+Eligible line:              final int index2 = beginIndex2 + i;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  26  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bloomfilter', 'SetOperations.java']  Line Count  191
+Eligible line:          final int numerator = andCardinality(first, second);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  27  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'ChainedTransformer.java']  Line Count  128
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  28  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'AbstractIteratorDecorator.java']  Line Count  46
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bag', 'PredicatedSortedBag.java']  Line Count  108
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'ListIteratorWrapper.java']  Line Count  263
+Eligible line:              final ListIterator<E> li = (ListIterator<E>) iterator;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  29  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bag', 'CollectionBag.java']  Line Count  227
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/collection', 'AbstractCollectionDecorator.java']  Line Count  185
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  30  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bidimap', 'package-info.java']  Line Count  40
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'LazyIteratorChain.java']  Line Count  150
+Eligible line:          lastUsedIterator = currentIterator;
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  13
+Rel Path:  src/main/java/org/apache/commons/collections4/iterators/LazyIteratorChain.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  1  error_by_babelRTS  0  failure_by_babelRTS  1
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  31  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4', 'MapIterator.java']  Line Count  112
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/list', 'GrowthList.java']  Line Count  190
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4', 'IterableMap.java']  Line Count  44
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/multiset', 'SynchronizedMultiSet.java']  Line Count  162
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  32  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4', 'package-info.java']  Line Count  26
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'AbstractIteratorDecorator.java']  Line Count  46
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bag', 'AbstractMapBag.java']  Line Count  604
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/sequence', 'EditScript.java']  Line Count  134
+Eligible line:          lcsLength = 0;
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  33  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4', 'OrderedBidiMap.java']  Line Count  52
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bloomfilter', 'BitMap.java']  Line Count  116
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'EmptyOrderedIterator.java']  Line Count  53
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'SingletonListIterator.java']  Line Count  181
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  34  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'LoopingIterator.java']  Line Count  127
+Eligible line:          iterator = collection.iterator();
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  14
+Rel Path:  src/main/java/org/apache/commons/collections4/iterators/LoopingIterator.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  0  error_by_babelRTS  0  failure_by_babelRTS  0
+Not Killed By BabelRTS
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  35  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'FactoryTransformer.java']  Line Count  83
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  36  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'AbstractEmptyIterator.java']  Line Count  74
+Eligible line:          throw new IllegalStateException("Iterator contains no elements");
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  15
+Rel Path:  src/main/java/org/apache/commons/collections4/iterators/AbstractEmptyIterator.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  1  error_by_babelRTS  1  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  37  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'HashedMap.java']  Line Count  124
+Eligible line:          super(initialCapacity, loadFactor);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  16
+Rel Path:  src/main/java/org/apache/commons/collections4/map/HashedMap.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  0  error_by_babelRTS  0  failure_by_babelRTS  0
+Not Killed By BabelRTS
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  38  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bloomfilter', 'BloomFilter.java']  Line Count  260
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'LoopingListIterator.java']  Line Count  262
+Eligible line:          _reset();
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  17
+Rel Path:  src/main/java/org/apache/commons/collections4/iterators/LoopingListIterator.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  0  error_by_babelRTS  0  failure_by_babelRTS  0
+Not Killed By BabelRTS
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  39  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'NonePredicate.java']  Line Count  103
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  40  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/set', 'MapBackedSet.java']  Line Count  186
+Eligible line:          map.put(obj, dummyValue);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  18
+Rel Path:  src/main/java/org/apache/commons/collections4/set/MapBackedSet.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  3  error_by_babelRTS  2  failure_by_babelRTS  1
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  41  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bidimap', 'DualLinkedHashBidiMap.java']  Line Count  103
+Eligible line:          normalMap = new LinkedHashMap<>();
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  19
+Rel Path:  src/main/java/org/apache/commons/collections4/bidimap/DualLinkedHashBidiMap.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  3  error_by_babelRTS  0  failure_by_babelRTS  3
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  42  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'InstantiateTransformer.java']  Line Count  128
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'CaseInsensitiveMap.java']  Line Count  177
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/collection', 'IndexedCollection.java']  Line Count  285
+Eligible line:          final Collection<C> coll = (Collection<C>) index.get(key);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  43  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'OnePredicate.java']  Line Count  108
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'LazySortedMap.java']  Line Count  167
+Eligible line:          super(map, factory);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  44  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/properties', 'AbstractPropertiesFactory.java']  Line Count  216
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/keyvalue', 'package-info.java']  Line Count  29
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'AbstractHashedMap.java']  Line Count  1398
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'PredicateTransformer.java']  Line Count  84
+Eligible line:          iPredicate = predicate;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  45  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'ReferenceIdentityMap.java']  Line Count  253
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  46  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/multimap', 'HashSetValuedHashMap.java']  Line Count  131
+Eligible line:          setMap(new HashMap<K, HashSet<V>>());
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  20
+Rel Path:  src/main/java/org/apache/commons/collections4/multimap/HashSetValuedHashMap.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  0  error_by_babelRTS  0  failure_by_babelRTS  0
+Not Killed By BabelRTS
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  47  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bloomfilter', 'IndexProducer.java']  Line Count  127
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'MultiKeyMap.java']  Line Count  904
+Eligible line:              entry = entry.next;
+
+Build successful for mutated program. Now test execution
+Unexpected Error Occured:  list index out of range
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  48  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/multiset', 'UnmodifiableMultiSet.java']  Line Count  172
+Eligible line:          throw new UnsupportedOperationException();
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  21
+Rel Path:  src/main/java/org/apache/commons/collections4/multiset/UnmodifiableMultiSet.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  2  error_by_babelRTS  2  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  49  Revision:  7b2c1b2b3ef501e03ec5bf1de31754836a2e7a07
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bag', 'UnmodifiableSortedBag.java']  Line Count  162
+Eligible line:          throw new UnsupportedOperationException();
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  22
+Rel Path:  src/main/java/org/apache/commons/collections4/bag/UnmodifiableSortedBag.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  1  error_by_babelRTS  1  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+commons-cli src/main/java src/test/java java *.java
+HEAD is now at 42585b5 Pick up aQute.bndlib.version from parent
+Revision Build sucessful. Running babelRTS
+Mutation Number:  0  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'PatternOptionBuilder.java']  Line Count  193
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'OptionValidator.java']  Line Count  83
+Eligible line:    The ASF licenses this file to You under the Apache License, Version 2.0
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  1  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'GnuParser.java']  Line Count  89
+Eligible line:          boolean eatTheRest = false;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  2  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'MissingArgumentException.java']  Line Count  61
+Eligible line:    Licensed to the Apache Software Foundation (ASF) under one or more
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  3  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'CommandLineParser.java']  Line Count  85
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'CommandLine.java']  Line Count  455
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'CommandLineParser.java']  Line Count  85
+Eligible line:    Unless required by applicable law or agreed to in writing, software
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  4  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'ParseException.java']  Line Count  37
+Eligible line:    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  5  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'BasicParser.java']  Line Count  49
+Eligible line:    (the "License"); you may not use this file except in compliance with
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  6  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Options.java']  Line Count  333
+Eligible line:          opt = Util.stripLeadingHyphens(opt);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  23
+Rel Path:  src/main/java/org/apache/commons/cli/Options.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  36  error_by_babelRTS  4  failure_by_babelRTS  32
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  7  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'OptionValidator.java']  Line Count  83
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'OptionGroup.java']  Line Count  155
+Eligible line:          optionMap.put(option.getKey(), option);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  24
+Rel Path:  src/main/java/org/apache/commons/cli/OptionGroup.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  31  error_by_babelRTS  9  failure_by_babelRTS  22
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  8  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'AlreadySelectedException.java']  Line Count  82
+Eligible line:    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  9  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'OptionValidator.java']  Line Count  83
+Eligible line:        http://www.apache.org/licenses/LICENSE-2.0
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  10  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Option.java']  Line Count  900
+Eligible line:          this.required = required;
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  25
+Rel Path:  src/main/java/org/apache/commons/cli/Option.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  17  error_by_babelRTS  17  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  11  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'AmbiguousOptionException.java']  Line Count  82
+Eligible line:          super(createMessage(option, matchingOptions), option);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  12  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Util.java']  Line Count  66
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'DefaultParser.java']  Line Count  776
+Eligible line:              handleUnknownToken(token);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  26
+Rel Path:  src/main/java/org/apache/commons/cli/DefaultParser.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  9  error_by_babelRTS  9  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  13  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'GnuParser.java']  Line Count  89
+Eligible line:              final String arg = arguments[i];
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  14  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'OptionValidator.java']  Line Count  83
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Options.java']  Line Count  333
+Eligible line:          buf.append(longOpts);
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  15  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Parser.java']  Line Count  358
+Eligible line:        http://www.apache.org/licenses/LICENSE-2.0
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  16  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Options.java']  Line Count  333
+Eligible line:              requiredOpts.add(key);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  27
+Rel Path:  src/main/java/org/apache/commons/cli/Options.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  15  error_by_babelRTS  15  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  17  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'PatternOptionBuilder.java']  Line Count  193
+Eligible line:                  required = true;
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  28
+Rel Path:  src/main/java/org/apache/commons/cli/PatternOptionBuilder.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  1  error_by_babelRTS  1  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  18  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'ParseException.java']  Line Count  37
+Eligible line:    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  19  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'HelpFormatter.java']  Line Count  932
+Eligible line:    limitations under the License.
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  20  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'UnrecognizedOptionException.java']  Line Count  63
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'package-info.java']  Line Count  21
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Parser.java']  Line Count  358
+Eligible line:                          cmd.addArg(str);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  29
+Rel Path:  src/main/java/org/apache/commons/cli/Parser.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  21  error_by_babelRTS  21  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  21  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'TypeHandler.java']  Line Count  208
+Eligible line:              throw new ParseException("Unable to find the class: " + classname);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  22  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Options.java']  Line Count  333
+Eligible line:          addOption(new Option(opt, longOpt, hasArg, description));
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  30
+Rel Path:  src/main/java/org/apache/commons/cli/Options.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  149  error_by_babelRTS  46  failure_by_babelRTS  103
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  23  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'HelpFormatter.java']  Line Count  932
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'HelpFormatter.java']  Line Count  932
+Eligible line:    The ASF licenses this file to You under the Apache License, Version 2.0
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  24  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'CommandLineParser.java']  Line Count  85
+Eligible line:    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  25  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'CommandLine.java']  Line Count  455
+Eligible line:    the License.  You may obtain a copy of the License at
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  26  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'OptionBuilder.java']  Line Count  357
+Eligible line:          OptionBuilder.argCount = hasArg ? 1 : Option.UNINITIALIZED;
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  27  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'AmbiguousOptionException.java']  Line Count  82
+Eligible line:    distributed under the License is distributed on an "AS IS" BASIS,
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  28  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Options.java']  Line Count  333
+Eligible line:          shortOpts.put(key, opt);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  31
+Rel Path:  src/main/java/org/apache/commons/cli/Options.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  223  error_by_babelRTS  58  failure_by_babelRTS  165
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  29  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'PosixParser.java']  Line Count  243
+Eligible line:                  tokens.add(token);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  32
+Rel Path:  src/main/java/org/apache/commons/cli/PosixParser.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  2  error_by_babelRTS  1  failure_by_babelRTS  1
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  30  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'OptionValidator.java']  Line Count  83
+Eligible line:    the License.  You may obtain a copy of the License at
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  31  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'AlreadySelectedException.java']  Line Count  82
+Eligible line:          this(message, null, null);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  32  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'AmbiguousOptionException.java']  Line Count  82
+Eligible line:    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  33  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Options.java']  Line Count  333
+Eligible line:          opt = Util.stripLeadingHyphens(opt);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  33
+Rel Path:  src/main/java/org/apache/commons/cli/Options.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  36  error_by_babelRTS  4  failure_by_babelRTS  32
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  34  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Options.java']  Line Count  333
+Eligible line:    limitations under the License.
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  35  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Options.java']  Line Count  333
+Eligible line:          final String key = opt.getKey();
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  36  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Parser.java']  Line Count  358
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'OptionBuilder.java']  Line Count  357
+Eligible line:          OptionBuilder.argCount = Option.UNLIMITED_VALUES;
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  34
+Rel Path:  src/main/java/org/apache/commons/cli/OptionBuilder.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  5  error_by_babelRTS  3  failure_by_babelRTS  2
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  37  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Option.java']  Line Count  900
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'AmbiguousOptionException.java']  Line Count  82
+Eligible line:          final StringBuilder buf = new StringBuilder("Ambiguous option: '");
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  38  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'DefaultParser.java']  Line Count  776
+Eligible line:              throw new MissingOptionException(expectedOpts);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  35
+Rel Path:  src/main/java/org/apache/commons/cli/DefaultParser.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  4  error_by_babelRTS  4  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  39  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'DefaultParser.java']  Line Count  776
+Eligible line:          final List<String> matches = new ArrayList<>(1);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  40  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'package-info.java']  Line Count  21
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'OptionValidator.java']  Line Count  83
+Eligible line:    The ASF licenses this file to You under the Apache License, Version 2.0
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  41  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'BasicParser.java']  Line Count  49
+Eligible line:    limitations under the License.
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  42  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Parser.java']  Line Count  358
+Eligible line:              final OptionGroup group = getOptions().getOptionGroup(opt);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  43  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'BasicParser.java']  Line Count  49
+Eligible line:    (the "License"); you may not use this file except in compliance with
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  44  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'OptionGroup.java']  Line Count  155
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'MissingArgumentException.java']  Line Count  61
+Eligible line:          super(message);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  45  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'UnrecognizedOptionException.java']  Line Count  63
+Eligible line:    Unless required by applicable law or agreed to in writing, software
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  46  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'OptionGroup.java']  Line Count  155
+Eligible line:                  buff.append("-");
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  36
+Rel Path:  src/main/java/org/apache/commons/cli/OptionGroup.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  1  error_by_babelRTS  1  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  47  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'ParseException.java']  Line Count  37
+Eligible line:        http://www.apache.org/licenses/LICENSE-2.0
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  48  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'UnrecognizedOptionException.java']  Line Count  63
+Eligible line:        http://www.apache.org/licenses/LICENSE-2.0
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  49  Revision:  42585b5f4af421dc7780cc41c21a7b45f89db594
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'TypeHandler.java']  Line Count  208
+Eligible line:    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Previous HEAD position was 42585b5 Pick up aQute.bndlib.version from parent
+HEAD is now at 14c4903 Lookup key in map only once
+Revision Build sucessful. Running babelRTS
+Mutation Number:  0  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'MissingArgumentException.java']  Line Count  61
+Eligible line:          this.option = option;
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  37
+Rel Path:  src/main/java/org/apache/commons/cli/MissingArgumentException.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  8  error_by_babelRTS  1  failure_by_babelRTS  7
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  1  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'BasicParser.java']  Line Count  49
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  2  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'PatternOptionBuilder.java']  Line Count  193
+Eligible line:    limitations under the License.
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  3  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'MissingArgumentException.java']  Line Count  61
+Eligible line:    distributed under the License is distributed on an "AS IS" BASIS,
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  4  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'CommandLineParser.java']  Line Count  85
+Eligible line:    Unless required by applicable law or agreed to in writing, software
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  5  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'OptionValidator.java']  Line Count  83
+Eligible line:    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  6  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Parser.java']  Line Count  358
+Eligible line:                  eatTheRest = true;
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  38
+Rel Path:  src/main/java/org/apache/commons/cli/Parser.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  3  error_by_babelRTS  3  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  7  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Option.java']  Line Count  900
+Eligible line:          final Option other = (Option) obj;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  8  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Parser.java']  Line Count  358
+Eligible line:  @Deprecated
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  9  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'package-info.java']  Line Count  21
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Util.java']  Line Count  66
+Eligible line:    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  10  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'OptionGroup.java']  Line Count  155
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'PatternOptionBuilder.java']  Line Count  193
+Eligible line:          case '<':
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  11  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'AlreadySelectedException.java']  Line Count  82
+Eligible line:    contributor license agreements.  See the NOTICE file distributed with
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  12  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Util.java']  Line Count  66
+Eligible line:        http://www.apache.org/licenses/LICENSE-2.0
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  13  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'UnrecognizedOptionException.java']  Line Count  63
+Eligible line:    distributed under the License is distributed on an "AS IS" BASIS,
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  14  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'TypeHandler.java']  Line Count  208
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'TypeHandler.java']  Line Count  208
+Eligible line:    limitations under the License.
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  15  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Util.java']  Line Count  66
+Eligible line:    distributed under the License is distributed on an "AS IS" BASIS,
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  16  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'HelpFormatter.java']  Line Count  932
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'CommandLineParser.java']  Line Count  85
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'BasicParser.java']  Line Count  49
+Eligible line:      protected String[] flatten(@SuppressWarnings("unused") final Options options, final String[] arguments,
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  17  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'AmbiguousOptionException.java']  Line Count  82
+Eligible line:          buf.append("'  (could be: ");
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  18  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'MissingArgumentException.java']  Line Count  61
+Eligible line:    limitations under the License.
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  19  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'CommandLine.java']  Line Count  455
+Eligible line:                  values.addAll(processedOption.getValuesList());
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  39
+Rel Path:  src/main/java/org/apache/commons/cli/CommandLine.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  147  error_by_babelRTS  134  failure_by_babelRTS  13
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  20  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Option.java']  Line Count  900
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'PosixParser.java']  Line Count  243
+Eligible line:                      final Option opt = options.getOption(matchingOpts.get(0));
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  21  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'MissingOptionException.java']  Line Count  85
+Eligible line:          this(createMessage(missingOptions));
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  22  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'BasicParser.java']  Line Count  49
+Eligible line:    The ASF licenses this file to You under the Apache License, Version 2.0
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  23  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Parser.java']  Line Count  358
+Eligible line:              throw new UnrecognizedOptionException("Unrecognized option: " + arg, arg);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  40
+Rel Path:  src/main/java/org/apache/commons/cli/Parser.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  9  error_by_babelRTS  0  failure_by_babelRTS  9
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  24  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'ParseException.java']  Line Count  37
+Eligible line:    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  25  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'UnrecognizedOptionException.java']  Line Count  63
+Eligible line:    Unless required by applicable law or agreed to in writing, software
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  26  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'UnrecognizedOptionException.java']  Line Count  63
+Eligible line:    limitations under the License.
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  27  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'UnrecognizedOptionException.java']  Line Count  63
+Eligible line:    Unless required by applicable law or agreed to in writing, software
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  28  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'TypeHandler.java']  Line Count  208
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Option.java']  Line Count  900
+Eligible line:          this.optionalArg = builder.optionalArg;
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  41
+Rel Path:  src/main/java/org/apache/commons/cli/Option.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  3  error_by_babelRTS  1  failure_by_babelRTS  2
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  29  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Options.java']  Line Count  333
+Eligible line:    The ASF licenses this file to You under the Apache License, Version 2.0
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  30  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'MissingOptionException.java']  Line Count  85
+Eligible line:    contributor license agreements.  See the NOTICE file distributed with
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  31  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'OptionGroup.java']  Line Count  155
+Eligible line:    Unless required by applicable law or agreed to in writing, software
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  32  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'GnuParser.java']  Line Count  89
+Eligible line:                  tokens.add("-");
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  42
+Rel Path:  src/main/java/org/apache/commons/cli/GnuParser.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  1  error_by_babelRTS  0  failure_by_babelRTS  1
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  33  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'CommandLine.java']  Line Count  455
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'HelpFormatter.java']  Line Count  932
+Eligible line:          this.defaultArgName = name;
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  43
+Rel Path:  src/main/java/org/apache/commons/cli/HelpFormatter.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  2  error_by_babelRTS  2  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  34  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Util.java']  Line Count  66
+Eligible line:          final int length = str.length();
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  35  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'DefaultParser.java']  Line Count  776
+Eligible line:      protected List expectedOpts;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  36  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'BasicParser.java']  Line Count  49
+Eligible line:    The ASF licenses this file to You under the Apache License, Version 2.0
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  37  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Util.java']  Line Count  66
+Eligible line:    Licensed to the Apache Software Foundation (ASF) under one or more
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  38  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'TypeHandler.java']  Line Count  208
+Eligible line:    contributor license agreements.  See the NOTICE file distributed with
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  39  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'MissingArgumentException.java']  Line Count  61
+Eligible line:          this.option = option;
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  44
+Rel Path:  src/main/java/org/apache/commons/cli/MissingArgumentException.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  8  error_by_babelRTS  1  failure_by_babelRTS  7
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  40  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'OptionGroup.java']  Line Count  155
+Eligible line:                  buff.append(", ");
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  45
+Rel Path:  src/main/java/org/apache/commons/cli/OptionGroup.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  1  error_by_babelRTS  1  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  41  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'MissingArgumentException.java']  Line Count  61
+Eligible line:    The ASF licenses this file to You under the Apache License, Version 2.0
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  42  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Options.java']  Line Count  333
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  43  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'MissingOptionException.java']  Line Count  85
+Eligible line:    Unless required by applicable law or agreed to in writing, software
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  44  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'HelpFormatter.java']  Line Count  932
+Eligible line:          final List<Option> optList = new ArrayList<>(options.getOptions());
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  45  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'OptionBuilder.java']  Line Count  357
+Eligible line:          OptionBuilder.argCount = Option.UNLIMITED_VALUES;
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  46
+Rel Path:  src/main/java/org/apache/commons/cli/OptionBuilder.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  0  error_by_babelRTS  0  failure_by_babelRTS  0
+Not Killed By BabelRTS
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  46  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Util.java']  Line Count  66
+Eligible line:    The ASF licenses this file to You under the Apache License, Version 2.0
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  47  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'OptionGroup.java']  Line Count  155
+Eligible line:              final Option option = iter.next();
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  48  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Options.java']  Line Count  333
+Eligible line:          final String key = opt.getKey();
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  49  Revision:  14c4903117534e4e4f20947ce227e1fc7af36511
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'HelpFormatter.java']  Line Count  932
+Eligible line:              buff.append(option.getOpt() == null ? longOptSeparator : " ");
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  47
+Rel Path:  src/main/java/org/apache/commons/cli/HelpFormatter.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  3  error_by_babelRTS  3  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+commons-text src/main/java src/test/java java *.java
+HEAD is now at ba418e9b TEXT-221: Added commons.packageId to fix Bundle-SymbolicName (#384)
+Revision Build sucessful. Running babelRTS
+Mutation Number:  0  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'FileStringLookup.java']  Line Count  92
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'DefaultStringLookup.java']  Line Count  190
+Eligible line:      RESOURCE_BUNDLE(StringLookupFactory.KEY_RESOURCE_BUNDLE, StringLookupFactory.INSTANCE.resourceBundleStringLookup()),
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  1  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'TextRandomProvider.java']  Line Count  49
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/translate', 'AggregateTranslator.java']  Line Count  66
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/translate', 'JavaUnicodeEscaper.java']  Line Count  103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'FunctionStringLookup.java']  Line Count  99
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'InterpolatorStringLookup.java']  Line Count  146
+Eligible line:              final String name = key.substring(prefixPos + 1);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  2  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/translate', 'NumericEntityEscaper.java']  Line Count  114
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'JavaPlatformStringLookup.java']  Line Count  216
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/diff', 'ReplacementsFinder.java']  Line Count  126
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/numbers', 'DoubleFormat.java']  Line Count  775
+Eligible line:          @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  3  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'StringTokenizer.java']  Line Count  1139
+Eligible line:          int trimStart = 0;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  4  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/diff', 'StringsComparator.java']  Line Count  328
+Eligible line:                      ++y;
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  48
+Rel Path:  src/main/java/org/apache/commons/text/diff/StringsComparator.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  2  error_by_babelRTS  2  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  5  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'RandomStringGenerator.java']  Line Count  459
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/diff', 'EditCommand.java']  Line Count  89
+Eligible line:          this.object = object;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  6  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/translate', 'AggregateTranslator.java']  Line Count  66
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/diff', 'CommandVisitor.java']  Line Count  147
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/numbers', 'DoubleFormat.java']  Line Count  775
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'XmlStringLookup.java']  Line Count  84
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'RegexTokenizer.java']  Line Count  56
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  7  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/translate', 'NumericEntityEscaper.java']  Line Count  114
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/translate', 'package-info.java']  Line Count  24
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/numbers', 'ParsedDecimal.java']  Line Count  763
+Eligible line:                  --decimalPos;
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  49
+Rel Path:  src/main/java/org/apache/commons/text/numbers/ParsedDecimal.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  17  error_by_babelRTS  17  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  8  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/translate', 'CodePointTranslator.java']  Line Count  51
+Eligible line:          final boolean consumed = translate(codePoint, writer);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  9  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'InetAddressKeys.java']  Line Count  47
+Eligible line:      static final String KEY_ADDRESS = "address";
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  10  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/translate', 'NumericEntityUnescaper.java']  Line Count  157
+Eligible line:          errorIfNoSemiColon
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  11  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/translate', 'CharSequenceTranslator.java']  Line Count  139
+Eligible line:          int pos = 0;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  12  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/translate', 'NumericEntityEscaper.java']  Line Count  114
+Eligible line:          this(0, Integer.MAX_VALUE, true);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  13  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'ResourceBundleStringLookup.java']  Line Count  121
+Eligible line:                  key);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  14  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'XmlStringLookup.java']  Line Count  84
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'StringTokenizer.java']  Line Count  1139
+Eligible line:          final int quoteLen = getQuoteMatcher().isMatch(srcChars, start, start, len);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  15  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'FormatFactory.java']  Line Count  41
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'EditDistance.java']  Line Count  59
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'PropertiesStringLookup.java']  Line Count  103
+Eligible line:              final Properties properties = new Properties();
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  16  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'DefaultStringLookup.java']  Line Count  190
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'LongestCommonSubsequenceDistance.java']  Line Count  64
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'DateStringLookup.java']  Line Count  94
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'CompositeFormat.java']  Line Count  117
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/diff', 'EditScript.java']  Line Count  133
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/matcher', 'AbstractStringMatcher.java']  Line Count  451
+Eligible line:              Arrays.sort(this.chars);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  50
+Rel Path:  src/main/java/org/apache/commons/text/matcher/AbstractStringMatcher.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  21  error_by_babelRTS  21  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  17  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Unexpected Error Occured:  'utf-8' codec can't decode byte 0xc3 in position 4621: invalid continuation byte
+Returning to UnMutated versiob
+Updated 0 paths from the index
+Mutation Number:  18  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'UrlEncoderStringLookup.java']  Line Count  62
+Eligible line:      static final UrlEncoderStringLookup INSTANCE = new UrlEncoderStringLookup();
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  19  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/translate', 'UnicodeUnpairedSurrogateRemover.java']  Line Count  38
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'IntersectionSimilarity.java']  Line Count  237
+Eligible line:              throw new IllegalArgumentException("Input cannot be null");
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  51
+Rel Path:  src/main/java/org/apache/commons/text/similarity/IntersectionSimilarity.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  3  error_by_babelRTS  3  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  20  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'FunctionStringLookup.java']  Line Count  99
+Eligible line:              obj = function.apply(key);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  21  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'FormattableUtils.java']  Line Count  160
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'TextRandomProvider.java']  Line Count  49
+Eligible line:      int nextInt(int max);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  22  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/translate', 'SinglePassTranslator.java']  Line Count  62
+Eligible line:          translateWhole(input, writer);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  52
+Rel Path:  src/main/java/org/apache/commons/text/translate/SinglePassTranslator.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  4  error_by_babelRTS  4  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  23  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'ScriptStringLookup.java']  Line Count  93
+Eligible line:                  script);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  24  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'EditDistance.java']  Line Count  59
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'JavaPlatformStringLookup.java']  Line Count  216
+Eligible line:          default:
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  25  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'FunctionStringLookup.java']  Line Count  99
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/translate', 'NumericEntityEscaper.java']  Line Count  114
+Eligible line:          this.between = between;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  26  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'IntersectionResult.java']  Line Count  121
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  27  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Unexpected Error Occured:  'utf-8' codec can't decode byte 0xc3 in position 4621: invalid continuation byte
+Returning to UnMutated versiob
+Updated 0 paths from the index
+Mutation Number:  28  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/translate', 'CodePointTranslator.java']  Line Count  51
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'FileStringLookup.java']  Line Count  92
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  29  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'EditDistance.java']  Line Count  59
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/translate', 'OctalUnescaper.java']  Line Count  81
+Eligible line:              writer.write(Integer.parseInt(builder.toString(), 8));
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  53
+Rel Path:  src/main/java/org/apache/commons/text/translate/OctalUnescaper.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  1  error_by_babelRTS  1  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  30  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'FunctionStringLookup.java']  Line Count  99
+Eligible line:          this.function = function;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  31  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/translate', 'SinglePassTranslator.java']  Line Count  62
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'ConstantStringLookup.java']  Line Count  152
+Eligible line:              final Object value = resolveField(key.substring(0, fieldPos), key.substring(fieldPos + 1));
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  32  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/diff', 'EditScript.java']  Line Count  133
+Eligible line:          commands.add(command);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  54
+Rel Path:  src/main/java/org/apache/commons/text/diff/EditScript.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  2  error_by_babelRTS  2  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  33  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'FormattableUtils.java']  Line Count  160
+Eligible line:              final CharSequence ellipsis;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  34  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'DefaultStringLookup.java']  Line Count  190
+Eligible line:      CONST(StringLookupFactory.KEY_CONST, StringLookupFactory.INSTANCE.constantStringLookup()),
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  35  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'SimilarityScore.java']  Line Count  63
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'package-info.java']  Line Count  40
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'UrlDecoderStringLookup.java']  Line Count  63
+Eligible line:      static final UrlDecoderStringLookup INSTANCE = new UrlDecoderStringLookup();
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  36  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'IntersectionResult.java']  Line Count  121
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'StringSubstitutor.java']  Line Count  1548
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'FormatFactory.java']  Line Count  41
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'ExtendedMessageFormat.java']  Line Count  573
+Eligible line:                      final String customPattern = customPatterns.get(fe);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  37  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'StringSubstitutor.java']  Line Count  1548
+Eligible line:          Validate.isTrue(prefix != null, "Variable prefix must not be null!");
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  55
+Rel Path:  src/main/java/org/apache/commons/text/StringSubstitutor.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  1  error_by_babelRTS  1  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  38  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/numbers', 'DoubleFormat.java']  Line Count  775
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/matcher', 'StringMatcher.java']  Line Count  159
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/numbers', 'package-info.java']  Line Count  24
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'package-info.java']  Line Count  45
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'StringSubstitutor.java']  Line Count  1548
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/translate', 'CsvTranslators.java']  Line Count  93
+Eligible line:                  writer.write(inputSting);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  56
+Rel Path:  src/main/java/org/apache/commons/text/translate/CsvTranslators.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  3  error_by_babelRTS  3  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  39  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'JaccardDistance.java']  Line Count  55
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'StringSubstitutor.java']  Line Count  1548
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'UrlDecoderStringLookup.java']  Line Count  63
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'ExtendedMessageFormat.java']  Line Count  573
+Eligible line:              appendTo.append(QUOTE);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  57
+Rel Path:  src/main/java/org/apache/commons/text/ExtendedMessageFormat.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  3  error_by_babelRTS  1  failure_by_babelRTS  2
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  40  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'StringEscapeUtils.java']  Line Count  865
+Eligible line:          escapeXsiMap.put(">", "\\>");
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  41  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'package-info.java']  Line Count  22
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'StrMatcher.java']  Line Count  445
+Eligible line:              this.chars = chars.clone();
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  42  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'package-info.java']  Line Count  22
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'CompositeFormat.java']  Line Count  117
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  43  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'UrlDecoderStringLookup.java']  Line Count  63
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'LongestCommonSubsequence.java']  Line Count  309
+Eligible line:          final int leftSz = left.length();
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  44  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/numbers', 'ParsedDecimal.java']  Line Count  763
+Eligible line:                      append(groupingChar);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  58
+Rel Path:  src/main/java/org/apache/commons/text/numbers/ParsedDecimal.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  2  error_by_babelRTS  2  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  45  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'RandomStringGenerator.java']  Line Count  459
+Eligible line:          final int listSize = characterList.size();
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  46  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'SimilarityScoreFrom.java']  Line Count  109
+Eligible line:          Validate.isTrue(similarityScore != null, "The edit distance may not be null.");
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  59
+Rel Path:  src/main/java/org/apache/commons/text/similarity/SimilarityScoreFrom.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  1  error_by_babelRTS  1  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  47  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'JaccardSimilarity.java']  Line Count  86
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  48  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'DefaultStringLookup.java']  Line Count  190
+Eligible line:      CONST(StringLookupFactory.KEY_CONST, StringLookupFactory.INSTANCE.constantStringLookup()),
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  49  Revision:  ba418e9b5bffda7058c2e090d1ee4f9512cc3466
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/numbers', 'ParsedDecimal.java']  Line Count  763
+Eligible line:                      append(groupingChar);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  60
+Rel Path:  src/main/java/org/apache/commons/text/numbers/ParsedDecimal.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  2  error_by_babelRTS  2  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Previous HEAD position was ba418e9b TEXT-221: Added commons.packageId to fix Bundle-SymbolicName (#384)
+HEAD is now at 97027387 Bump actions/setup-java from 3.6.0 to 3.7.0 #126
+Revision Build sucessful. Running babelRTS
+Mutation Number:  0  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'StringSubstitutor.java']  Line Count  1548
+Eligible line:                              priorVariables.add(varName);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  61
+Rel Path:  src/main/java/org/apache/commons/text/StringSubstitutor.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  43  error_by_babelRTS  0  failure_by_babelRTS  43
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  1  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'CosineSimilarity.java']  Line Count  102
+Eligible line:          intersection.retainAll(rightVector.keySet());
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  62
+Rel Path:  src/main/java/org/apache/commons/text/similarity/CosineSimilarity.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  2  error_by_babelRTS  0  failure_by_babelRTS  2
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  2  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'LevenshteinDistance.java']  Line Count  399
+Eligible line:                  upperLeft = upper;
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  63
+Rel Path:  src/main/java/org/apache/commons/text/similarity/LevenshteinDistance.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  3  error_by_babelRTS  3  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  3  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'LevenshteinResults.java']  Line Count  129
+Eligible line:                  && Objects.equals(substituteCount, result.substituteCount);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  4  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'JaroWinklerSimilarity.java']  Line Count  162
+Eligible line:          final CharSequence min;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  5  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'FormattableUtils.java']  Line Count  160
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'FuzzyScore.java']  Line Count  143
+Eligible line:          final String queryLowerCase = query.toString().toLowerCase(locale);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  6  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/numbers', 'package-info.java']  Line Count  24
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'UrlStringLookup.java']  Line Count  93
+Eligible line:          final String charsetName = keys[0];
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  7  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'XmlStringLookup.java']  Line Count  84
+Eligible line:          final String[] keys = key.split(SPLIT_STR);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  8  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'FileStringLookup.java']  Line Count  92
+Eligible line:          final int keyLen = keys.length;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  9  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'JaroWinklerSimilarity.java']  Line Count  162
+Eligible line:          final double j = (m / left.length() + m / right.length() + (m - (double) mtp[1] / 2) / m) / 3;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  10  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'BiStringLookup.java']  Line Count  75
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/diff', 'package-info.java']  Line Count  25
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/diff', 'EditScript.java']  Line Count  133
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'StringTokenizer.java']  Line Count  1139
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'BiFunctionStringLookup.java']  Line Count  105
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  11  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/translate', 'CodePointTranslator.java']  Line Count  51
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'StrMatcher.java']  Line Count  445
+Eligible line:          @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  12  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'FormattableUtils.java']  Line Count  160
+Eligible line:                  ellipsis = StringUtils.EMPTY;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  13  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'EditDistanceFrom.java']  Line Count  108
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/io', 'package-info.java']  Line Count  31
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/translate', 'CsvTranslators.java']  Line Count  93
+Eligible line:                  writer.write(CSV_QUOTE);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  64
+Rel Path:  src/main/java/org/apache/commons/text/translate/CsvTranslators.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  6  error_by_babelRTS  6  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  14  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'LevenshteinResults.java']  Line Count  129
+Eligible line:          this.substituteCount = substituteCount;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  15  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'UrlEncoderStringLookup.java']  Line Count  62
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/io', 'package-info.java']  Line Count  31
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'WordUtils.java']  Line Count  900
+Eligible line:                  uncapitalizeNext = true;
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  65
+Rel Path:  src/main/java/org/apache/commons/text/WordUtils.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  2  error_by_babelRTS  2  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  16  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'FunctionStringLookup.java']  Line Count  99
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/matcher', 'AbstractStringMatcher.java']  Line Count  451
+Eligible line:          @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  17  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'LevenshteinDetailedDistance.java']  Line Count  522
+Eligible line:          Arrays.fill(p, boundary, p.length, Integer.MAX_VALUE);
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  18  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/diff', 'InsertCommand.java']  Line Count  58
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'LocalHostStringLookup.java']  Line Count  75
+Eligible line:      static final LocalHostStringLookup INSTANCE = new LocalHostStringLookup();
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  19  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/translate', 'NumericEntityEscaper.java']  Line Count  114
+Eligible line:          this(0, Integer.MAX_VALUE, true);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  20  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/diff', 'EditScript.java']  Line Count  133
+Eligible line:          commands = new ArrayList<>();
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  21  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'StringLookupFactory.java']  Line Count  1318
+Eligible line:              addLookup(DefaultStringLookup.BASE64_DECODER, lookupMap);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  66
+Rel Path:  src/main/java/org/apache/commons/text/lookup/StringLookupFactory.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  1  error_by_babelRTS  1  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  22  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'LongestCommonSubsequenceDistance.java']  Line Count  64
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/io', 'package-info.java']  Line Count  31
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'ExtendedMessageFormat.java']  Line Count  573
+Eligible line:              final FormatFactory factory = registry.get(name);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  23  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'XmlStringLookup.java']  Line Count  84
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'RandomStringGenerator.java']  Line Count  459
+Eligible line:                  inclusivePredicates = new HashSet<>();
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  67
+Rel Path:  src/main/java/org/apache/commons/text/RandomStringGenerator.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  3  error_by_babelRTS  0  failure_by_babelRTS  3
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  24  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/io', 'StringSubstitutorReader.java']  Line Count  316
+Eligible line:                  pos = prefixEscapeMatcher.size();
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  25  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'FuzzyScore.java']  Line Count  143
+Eligible line:          int previousMatchingCharacterIndex = Integer.MIN_VALUE;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  26  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'UrlStringLookup.java']  Line Count  93
+Eligible line:                  charsetName);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  27  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'LocalHostStringLookup.java']  Line Count  75
+Eligible line:              case InetAddressKeys.KEY_ADDRESS:
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  28  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'RegexTokenizer.java']  Line Count  56
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  29  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'LevenshteinResults.java']  Line Count  129
+Eligible line:          this.insertCount = insertCount;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  30  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'EditDistanceFrom.java']  Line Count  108
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'StringTokenizer.java']  Line Count  1139
+Eligible line:                      continue;
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  68
+Rel Path:  src/main/java/org/apache/commons/text/StringTokenizer.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  17  error_by_babelRTS  15  failure_by_babelRTS  2
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  31  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'LevenshteinDistance.java']  Line Count  399
+Eligible line:              throw new IllegalArgumentException("CharSequences must not be null");
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  69
+Rel Path:  src/main/java/org/apache/commons/text/similarity/LevenshteinDistance.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  1  error_by_babelRTS  1  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  32  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'package-info.java']  Line Count  45
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'AbstractStringLookup.java']  Line Count  92
+Eligible line:      @Deprecated
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  33  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/translate', 'AggregateTranslator.java']  Line Count  66
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  34  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'JaccardSimilarity.java']  Line Count  86
+Eligible line:              leftSet.add(left.charAt(i));
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  70
+Rel Path:  src/main/java/org/apache/commons/text/similarity/JaccardSimilarity.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  2  error_by_babelRTS  2  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  35  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/diff', 'InsertCommand.java']  Line Count  58
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'UrlStringLookup.java']  Line Count  93
+Eligible line:          final String[] keys = key.split(SPLIT_STR);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  36  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/diff', 'EditCommand.java']  Line Count  89
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'TextStringBuilder.java']  Line Count  3141
+Eligible line:              size += length;
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  71
+Rel Path:  src/main/java/org/apache/commons/text/TextStringBuilder.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  259  error_by_babelRTS  140  failure_by_babelRTS  119
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  37  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'FuzzyScore.java']  Line Count  143
+Eligible line:          this.locale = locale;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  38  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/diff', 'ReplacementsHandler.java']  Line Count  54
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'JaroWinklerSimilarity.java']  Line Count  162
+Eligible line:                      matches++;
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  72
+Rel Path:  src/main/java/org/apache/commons/text/similarity/JaroWinklerSimilarity.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  2  error_by_babelRTS  0  failure_by_babelRTS  2
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  39  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'WordUtils.java']  Line Count  900
+Eligible line:              wrapLength = 1;
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  73
+Rel Path:  src/main/java/org/apache/commons/text/WordUtils.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  1  error_by_babelRTS  0  failure_by_babelRTS  1
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  40  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'CharacterPredicates.java']  Line Count  111
+Eligible line:          @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  41  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/matcher', 'StringMatcherFactory.java']  Line Count  258
+Eligible line:              : length == 1 ? new AbstractStringMatcher.CharMatcher(chars[0])
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  74
+Rel Path:  src/main/java/org/apache/commons/text/matcher/StringMatcherFactory.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  1  error_by_babelRTS  1  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  42  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'Tokenizer.java']  Line Count  35
+Eligible line:      T[] tokenize(CharSequence text);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  43  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'StringSubstitutor.java']  Line Count  1548
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'StringTokenizer.java']  Line Count  1139
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  44  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'AbstractStringLookup.java']  Line Count  92
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'JaccardSimilarity.java']  Line Count  86
+Eligible line:          final int intersectionSize = leftSet.size() + rightSet.size() - unionSet.size();
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  45  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'JaroWinklerSimilarity.java']  Line Count  162
+Eligible line:          final int[] matchIndexes = new int[min.length()];
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  46  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'LevenshteinDistance.java']  Line Count  399
+Eligible line:              throw new IllegalArgumentException("Threshold must not be negative");
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  47  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'Counter.java']  Line Count  57
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'JaccardDistance.java']  Line Count  55
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'StrLookup.java']  Line Count  209
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'JaroWinklerDistance.java']  Line Count  93
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'WordUtils.java']  Line Count  900
+Eligible line:          int outOffset = 0;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  48  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/similarity', 'JaccardSimilarity.java']  Line Count  86
+Eligible line:          unionSet.addAll(rightSet);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  75
+Rel Path:  src/main/java/org/apache/commons/text/similarity/JaccardSimilarity.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  2  error_by_babelRTS  2  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  49  Revision:  97027387e51a1b7f8b6f9a391350aa3cb544f9e0
+File List Len : 103
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/diff', 'package-info.java']  Line Count  25
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'DateStringLookup.java']  Line Count  94
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text', 'TextStringBuilder.java']  Line Count  3141
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-text/src/main/java/org/apache/commons/text/lookup', 'DefaultStringLookup.java']  Line Count  190
+Eligible line:      URL_DECODER(StringLookupFactory.KEY_URL_DECODER, StringLookupFactory.INSTANCE.urlDecoderStringLookup()),
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+---------------------------summary-------------------
+Killeable Mutants:  75
+Killed Mutants:  69
+mutatedButNotCompiled:  0
+Total Attempts:  100
+killed/killable:  92.0
+            Project Name Language                                  revision  isRevCompileable  ...  Mut All Test Failure  BRTS Error BRTS Failure isKilledByBRTS
+0    commons-collections     java  64ed061e6a2a89f251ebd26dd52650d56025b5c1                 1  ...                     0           0            0              0
+1    commons-collections     java  64ed061e6a2a89f251ebd26dd52650d56025b5c1                 1  ...                     1           0            0              0
+2    commons-collections     java  64ed061e6a2a89f251ebd26dd52650d56025b5c1                 1  ...                     0          21            0              1
+3    commons-collections     java  64ed061e6a2a89f251ebd26dd52650d56025b5c1                 1  ...                     0           0            0              0
+4    commons-collections     java  64ed061e6a2a89f251ebd26dd52650d56025b5c1                 1  ...                     0           0            0              0
+..                   ...      ...                                       ...               ...  ...                   ...         ...          ...            ...
+292         commons-text     java  97027387e51a1b7f8b6f9a391350aa3cb544f9e0                 1  ...                     0           0            0              0
+293         commons-text     java  97027387e51a1b7f8b6f9a391350aa3cb544f9e0                 1  ...                     0           0            0              0
+294         commons-text     java  97027387e51a1b7f8b6f9a391350aa3cb544f9e0                 1  ...                     0           0            0              0
+295         commons-text     java  97027387e51a1b7f8b6f9a391350aa3cb544f9e0                 1  ...                     0           2            0              1
+296         commons-text     java  97027387e51a1b7f8b6f9a391350aa3cb544f9e0                 1  ...                     0           0            0              0
+
+[297 rows x 15 columns]
+

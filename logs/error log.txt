@@ -1,0 +1,143 @@
+concord:~/cs514$ python evalBabelRTS.py 
+HEAD is now at 5bcab481 Remove public keyword from package level test members
+Revision Build sucessful. Running babelRTS
+Mutation Number:  0  Revision:  5bcab481f7e9673ef56bee333d90ef1b11ae2579
+Eligible line:          throw new FunctorException("ExceptionFactory invoked");
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  1  Revision:  5bcab481f7e9673ef56bee333d90ef1b11ae2579
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  2  Revision:  5bcab481f7e9673ef56bee333d90ef1b11ae2579
+Eligible line:      MapIterator<K, V> mapIterator();
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  3  Revision:  5bcab481f7e9673ef56bee333d90ef1b11ae2579
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  4  Revision:  5bcab481f7e9673ef56bee333d90ef1b11ae2579
+Eligible line:          iPredicate = predicate;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  5  Revision:  5bcab481f7e9673ef56bee333d90ef1b11ae2579
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  6  Revision:  5bcab481f7e9673ef56bee333d90ef1b11ae2579
+Eligible line:          iPredicate = predicate;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  7  Revision:  5bcab481f7e9673ef56bee333d90ef1b11ae2579
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  8  Revision:  5bcab481f7e9673ef56bee333d90ef1b11ae2579
+Eligible line:          Objects.requireNonNull(closures, "closures");
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  9  Revision:  5bcab481f7e9673ef56bee333d90ef1b11ae2579
+Eligible line:          extends AbstractSerializableListDecorator<E>
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  10  Revision:  5bcab481f7e9673ef56bee333d90ef1b11ae2579
+Eligible line:      boolean evaluate(T object);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  11  Revision:  5bcab481f7e9673ef56bee333d90ef1b11ae2579
+Eligible line:  @FunctionalInterface
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  12  Revision:  5bcab481f7e9673ef56bee333d90ef1b11ae2579
+Eligible line:              cardinality[0] += Long.bitCount(x & y);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  1
+Rel Path:  src/main/java/org/apache/commons/collections4/bloomfilter/SetOperations.java  Lang:  java
+Unexpected Error Occured: 
+Returning to UnMutated versiob
+fatal: not a git repository (or any parent up to mount point /s/chopin)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+Mutation Number:  13  Revision:  5bcab481f7e9673ef56bee333d90ef1b11ae2579
+Unexpected Error Occured: 
+Returning to UnMutated versiob
+fatal: not a git repository (or any parent up to mount point /s/chopin)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+Mutation Number:  14  Revision:  5bcab481f7e9673ef56bee333d90ef1b11ae2579
+Unexpected Error Occured: 
+Returning to UnMutated versiob
+fatal: not a git repository (or any parent up to mount point /s/chopin)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: not a git repository (or any parent up to mount point /s/chopin)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: not a git repository (or any parent up to mount point /s/chopin)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+Traceback (most recent call last):
+  File "/s/chopin/a/grad/rakibul/cs514/evalBabelRTS.py", line 356, in <module>
+    checkedOutHash = checoutToRevision(revision)
+  File "/s/chopin/a/grad/rakibul/cs514/evalBabelRTS.py", line 93, in checoutToRevision
+    label = subprocess.check_output(["git", "describe"]).strip()
+  File "/usr/local/anaconda3/latest/lib/python3.9/subprocess.py", line 424, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/anaconda3/latest/lib/python3.9/subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'describe']' returned non-zero exit status 128.
+concord:~/cs514$ cd commons-collections/
+concord:~/cs514/commons-collections$ git status
+HEAD detached at 5bcab481
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   src/main/java/org/apache/commons/collections4/bloomfilter/SetOperations.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.babelrts
+
+no changes added to commit (use "git add" and/or "git commit -a")
+concord:~/cs514/commons-collections$ git checkout .
+Updated 1 path from the index
+concord:~/cs514/commons-collections$ git status
+HEAD detached at 5bcab481
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.babelrts
+
+nothing added to commit but untracked files present (use "git add" to track)
+concord:~/cs514/commons-collections$ git clean -f
+Removing .babelrts
+concord:~/cs514/commons-collections$ git status
+HEAD detached at 5bcab481
+nothing to commit, working tree clean
+concord:~/cs514/commons-collections$ 

@@ -1,0 +1,399 @@
+concord:~/cs514$ python evalBabelRTS.py 
+Note: switching to '37218b8c85b073d07314fb4b47132ecd5f93e24e'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 37218b8c Undo Bump actions/setup-java from 3.6.0 to 3.7.0
+Revision Build sucessful. Running babelRTS
+Mutation Number:  0  Revision:  37218b8c85b073d07314fb4b47132ecd5f93e24e
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:          Objects.requireNonNull(setA, "setA");
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  1
+Rel Path:  src/main/java/org/apache/commons/collections4/SetUtils.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  1  error_by_babelRTS  1  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  1  Revision:  37218b8c85b073d07314fb4b47132ecd5f93e24e
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:      @SuppressWarnings("rawtypes")
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  2  Revision:  37218b8c85b073d07314fb4b47132ecd5f93e24e
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:          iPredicate = predicate;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  3  Revision:  37218b8c85b073d07314fb4b47132ecd5f93e24e
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:      int hash(T o);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  4  Revision:  37218b8c85b073d07314fb4b47132ecd5f93e24e
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:          final long[] result = new long[BitMap.numberOfBitMaps(numberOfBits)];
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  5  Revision:  37218b8c85b073d07314fb4b47132ecd5f93e24e
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:              throw new IllegalArgumentException("Cannot set value to this map entry");
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  2
+Rel Path:  src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  1  error_by_babelRTS  1  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  6  Revision:  37218b8c85b073d07314fb4b47132ecd5f93e24e
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:          out.defaultWriteObject();
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  3
+Rel Path:  src/main/java/org/apache/commons/collections4/list/NodeCachingLinkedList.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  4  error_by_babelRTS  0  failure_by_babelRTS  4
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  7  Revision:  37218b8c85b073d07314fb4b47132ecd5f93e24e
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:              put.putAll(t);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  4
+Rel Path:  src/main/java/org/apache/commons/collections4/SplitMapUtils.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  1  error_by_babelRTS  1  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  8  Revision:  37218b8c85b073d07314fb4b47132ecd5f93e24e
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  9  Revision:  37218b8c85b073d07314fb4b47132ecd5f93e24e
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:          this(coll.size());
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  10  Revision:  37218b8c85b073d07314fb4b47132ecd5f93e24e
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  11  Revision:  37218b8c85b073d07314fb4b47132ecd5f93e24e
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:          @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  12  Revision:  37218b8c85b073d07314fb4b47132ecd5f93e24e
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:                      leastIndex = i;
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  5
+Rel Path:  src/main/java/org/apache/commons/collections4/iterators/CollatingIterator.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  7  error_by_babelRTS  0  failure_by_babelRTS  7
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  13  Revision:  37218b8c85b073d07314fb4b47132ecd5f93e24e
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  14  Revision:  37218b8c85b073d07314fb4b47132ecd5f93e24e
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:          super(map, factory);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Previous HEAD position was 37218b8c Undo Bump actions/setup-java from 3.6.0 to 3.7.0
+HEAD is now at cfd5b6e5 Bump actions/setup-java from 3.6.0 to 3.7.0 #126
+Revision Build sucessful. Running babelRTS
+Mutation Number:  0  Revision:  cfd5b6e56792a5143bc305832b674448b70be1d0
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:              list.add(iterator);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  6
+Rel Path:  src/main/java/org/apache/commons/collections4/iterators/ZippingIterator.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  8  error_by_babelRTS  6  failure_by_babelRTS  2
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  1  Revision:  cfd5b6e56792a5143bc305832b674448b70be1d0
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  2  Revision:  cfd5b6e56792a5143bc305832b674448b70be1d0
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:          protected LinkEntry<K, V> last;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  3  Revision:  cfd5b6e56792a5143bc305832b674448b70be1d0
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:          super(object);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  4  Revision:  cfd5b6e56792a5143bc305832b674448b70be1d0
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  5  Revision:  cfd5b6e56792a5143bc305832b674448b70be1d0
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:          bitMaps[getLongIndex(bitIndex)] |= getLongBit(bitIndex);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  7
+Rel Path:  src/main/java/org/apache/commons/collections4/bloomfilter/BitMap.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  52  error_by_babelRTS  52  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  6  Revision:  cfd5b6e56792a5143bc305832b674448b70be1d0
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:          entry = null;
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  7  Revision:  cfd5b6e56792a5143bc305832b674448b70be1d0
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:          throw new UnsupportedOperationException();
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  8  Revision:  cfd5b6e56792a5143bc305832b674448b70be1d0
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:          final Integer position1 = map.get(obj1);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  9  Revision:  cfd5b6e56792a5143bc305832b674448b70be1d0
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:              cardinality[1] += Long.bitCount(x | y);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  8
+Rel Path:  src/main/java/org/apache/commons/collections4/bloomfilter/SetOperations.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  2  error_by_babelRTS  2  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  10  Revision:  cfd5b6e56792a5143bc305832b674448b70be1d0
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:                      next = next.next();
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  11  Revision:  cfd5b6e56792a5143bc305832b674448b70be1d0
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  12  Revision:  cfd5b6e56792a5143bc305832b674448b70be1d0
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  13  Revision:  cfd5b6e56792a5143bc305832b674448b70be1d0
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:              this.sub = sub;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  14  Revision:  cfd5b6e56792a5143bc305832b674448b70be1d0
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:              command.accept(visitor);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  9
+Rel Path:  src/main/java/org/apache/commons/collections4/sequence/EditScript.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  2  error_by_babelRTS  2  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Previous HEAD position was cfd5b6e5 Bump actions/setup-java from 3.6.0 to 3.7.0 #126
+HEAD is now at a1de7871 Collections-817: Update estimateN, estimateIntersection and estimateUnion
+Revision Build sucessful. Running babelRTS
+Mutation Number:  0  Revision:  a1de787172664a63fd172571fc9779137568ece4
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:          this.equator = equator;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  1  Revision:  a1de787172664a63fd172571fc9779137568ece4
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:      boolean hasPrevious();
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  2  Revision:  a1de787172664a63fd172571fc9779137568ece4
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:          super(keyType, valueType, DEFAULT_CAPACITY, DEFAULT_LOAD_FACTOR, purgeValues);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  10
+Rel Path:  src/main/java/org/apache/commons/collections4/map/ReferenceIdentityMap.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  1  error_by_babelRTS  0  failure_by_babelRTS  1
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  3  Revision:  a1de787172664a63fd172571fc9779137568ece4
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:          this.iterator = iterator;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  4  Revision:  a1de787172664a63fd172571fc9779137568ece4
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:          iFactory = factory;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  5  Revision:  a1de787172664a63fd172571fc9779137568ece4
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:          checkLocked();
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  6  Revision:  a1de787172664a63fd172571fc9779137568ece4
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:          iterator.remove();
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  11
+Rel Path:  src/main/java/org/apache/commons/collections4/iterators/LoopingIterator.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  0  error_by_babelRTS  0  failure_by_babelRTS  0
+Not Killed By BabelRTS
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  7  Revision:  a1de787172664a63fd172571fc9779137568ece4
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:              result.set(i);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  12
+Rel Path:  src/main/java/org/apache/commons/collections4/bloomfilter/IndexProducer.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  16  error_by_babelRTS  16  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  8  Revision:  a1de787172664a63fd172571fc9779137568ece4
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:          bitMaps[getLongIndex(bitIndex)] |= getLongBit(bitIndex);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  13
+Rel Path:  src/main/java/org/apache/commons/collections4/bloomfilter/BitMap.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  52  error_by_babelRTS  52  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  9  Revision:  a1de787172664a63fd172571fc9779137568ece4
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:          final SortedMap<K, V> map = getSortedMap().tailMap(fromKey);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  10  Revision:  a1de787172664a63fd172571fc9779137568ece4
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:              throw new NoSuchElementException();
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  14
+Rel Path:  src/main/java/org/apache/commons/collections4/iterators/ArrayIterator.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  0  error_by_babelRTS  0  failure_by_babelRTS  0
+Not Killed By BabelRTS
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  11  Revision:  a1de787172664a63fd172571fc9779137568ece4
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+^CTraceback (most recent call last):
+  File "/s/chopin/a/grad/rakibul/cs514/evalBabelRTS.py", line 394, in <module>
+    selectedLineNumber, selectedFilePath, particular_line = sdMutation(pattern, srcPath, lang, testPath)
+  File "/s/chopin/a/grad/rakibul/cs514/evalBabelRTS.py", line 106, in sdMutation
+    selectedLineNumber, particular_line=getRandomLine(selectedFilePath,lineCount, lang)
+  File "/s/chopin/a/grad/rakibul/cs514/evalBabelRTS.py", line 179, in getRandomLine
+    if isEligibleStatement(particular_line, lang):
+  File "/s/chopin/a/grad/rakibul/cs514/evalBabelRTS.py", line 54, in isEligibleStatement
+    if (not line) or '/*' in line or '*/' in line  or line.startswith('*') or re.search("^\s*$", line) or re.search("^[\s]*\*", line) or re.search("^[\s]*\/\/", line) or '{' in line or '}' in line or 'return ' in line or 'if' in line or 'for' in line or 'class ' in line or 'public ' in line or 'private ' in line or 'import' in line or 'package' in line:
+  File "/usr/local/anaconda3/latest/lib/python3.9/re.py", line 201, in search
+    return _compile(pattern, flags).search(string)
+KeyboardInterrupt
+
+concord:~/cs514$ 

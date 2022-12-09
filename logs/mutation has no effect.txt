@@ -1,0 +1,7 @@
+Mutation Number:  1  Revision:  a1de787172664a63fd172571fc9779137568ece4
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bidimap', 'DualTreeBidiMap.java']  Line Count  412
+Eligible line:              last = null;
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test

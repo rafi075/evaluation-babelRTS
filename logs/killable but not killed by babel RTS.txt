@@ -1,0 +1,12 @@
+Mutation Number:  6  Revision:  a1de787172664a63fd172571fc9779137568ece4
+testPathMatch  /s/chopin/a/grad/rakibul/cs514/commons-collections/src/test/java/
+Eligible line:          iterator.remove();
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  11
+Rel Path:  src/main/java/org/apache/commons/collections4/iterators/LoopingIterator.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  0  error_by_babelRTS  0  failure_by_babelRTS  0
+Not Killed By BabelRTS
+Returning to UnMutated versiob
+Updated 1 path from the index

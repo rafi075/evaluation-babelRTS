@@ -1,0 +1,282 @@
+concord:~/cs514$ python evalBabelRTS.py 
+commons-collections src/main/java src/test/java java *.java
+HEAD is now at a1de7871 Collections-817: Update estimateN, estimateIntersection and estimateUnion
+Revision Build sucessful. Running babelRTS
+Mutation Number:  0  Revision:  a1de787172664a63fd172571fc9779137568ece4
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'EmptyOrderedMapIterator.java']  Line Count  55
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'NOPTransformer.java']  Line Count  69
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'EmptyIterator.java']  Line Count  73
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'EntrySetToMapIteratorAdapter.java']  Line Count  122
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  1  Revision:  a1de787172664a63fd172571fc9779137568ece4
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bidimap', 'DualTreeBidiMap.java']  Line Count  412
+Eligible line:              last = null;
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  2  Revision:  a1de787172664a63fd172571fc9779137568ece4
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bidimap', 'package-info.java']  Line Count  40
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'ChainedClosure.java']  Line Count  124
+Eligible line:          final Closure<? super E>[] cmds = new Closure[closures.size()];
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  3  Revision:  a1de787172664a63fd172571fc9779137568ece4
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'PredicatedSortedMap.java']  Line Count  136
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  4  Revision:  a1de787172664a63fd172571fc9779137568ece4
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/iterators', 'TransformIterator.java']  Line Count  138
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/multiset', 'SynchronizedMultiSet.java']  Line Count  162
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/properties', 'AbstractPropertiesFactory.java']  Line Count  216
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4', 'SetValuedMap.java']  Line Count  67
+Eligible line:      Set<V> get(K key);
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Previous HEAD position was a1de7871 Collections-817: Update estimateN, estimateIntersection and estimateUnion
+HEAD is now at 5bcab481 Remove public keyword from package level test members
+Revision Build sucessful. Running babelRTS
+Mutation Number:  0  Revision:  5bcab481f7e9673ef56bee333d90ef1b11ae2579
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'NOPTransformer.java']  Line Count  69
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'NotPredicate.java']  Line Count  82
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4', 'EnumerationUtils.java']  Line Count  112
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'AbstractMapDecorator.java']  Line Count  152
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  1  Revision:  5bcab481f7e9673ef56bee333d90ef1b11ae2579
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'IfTransformer.java']  Line Count  141
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/trie/analyzer', 'StringKeyAnalyzer.java']  Line Count  135
+Eligible line:          final int beginIndex2 = otherOffsetInBits / LENGTH;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  2  Revision:  5bcab481f7e9673ef56bee333d90ef1b11ae2579
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/keyvalue', 'package-info.java']  Line Count  29
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/multiset', 'PredicatedMultiSet.java']  Line Count  137
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/set', 'CompositeSet.java']  Line Count  529
+Eligible line:      @Override
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  3  Revision:  5bcab481f7e9673ef56bee333d90ef1b11ae2579
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bloomfilter', 'CountingBloomFilter.java']  Line Count  284
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/functors', 'UniquePredicate.java']  Line Count  69
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/map', 'ReferenceMap.java']  Line Count  199
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bidimap', 'DualTreeBidiMap.java']  Line Count  412
+Eligible line:      protected DualTreeBidiMap(final Map<K, V> normalMap, final Map<V, K> reverseMap,
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  4  Revision:  5bcab481f7e9673ef56bee333d90ef1b11ae2579
+File List Len : 343
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4', 'Unmodifiable.java']  Line Count  38
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-collections/src/main/java/org/apache/commons/collections4/bloomfilter', 'IndexProducer.java']  Line Count  127
+Eligible line:                          word >>>= 1;
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+commons-cli src/main/java src/test/java java *.java
+Note: switching to '2eac9a0a75966671d2ccfe052331f6620c56d334'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 2eac9a0 Undo Bump actions/setup-java from 3.6.0 to 3.7.0
+Revision Build sucessful. Running babelRTS
+Mutation Number:  0  Revision:  2eac9a0a75966671d2ccfe052331f6620c56d334
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'PatternOptionBuilder.java']  Line Count  193
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'Parser.java']  Line Count  358
+Eligible line:                  iter.previous();
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  1
+Rel Path:  src/main/java/org/apache/commons/cli/Parser.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  14  error_by_babelRTS  14  failure_by_babelRTS  0
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  1  Revision:  2eac9a0a75966671d2ccfe052331f6620c56d334
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'OptionBuilder.java']  Line Count  357
+Eligible line:              option.setArgs(argCount);
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  2
+Rel Path:  src/main/java/org/apache/commons/cli/OptionBuilder.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  15  error_by_babelRTS  11  failure_by_babelRTS  4
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  2  Revision:  2eac9a0a75966671d2ccfe052331f6620c56d334
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'DefaultParser.java']  Line Count  776
+Eligible line:      protected boolean stopAtNonOption;
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  3  Revision:  2eac9a0a75966671d2ccfe052331f6620c56d334
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'GnuParser.java']  Line Count  89
+Eligible line:    the License.  You may obtain a copy of the License at
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  4  Revision:  2eac9a0a75966671d2ccfe052331f6620c56d334
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'package-info.java']  Line Count  21
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'PatternOptionBuilder.java']  Line Count  193
+Eligible line:          case '%':
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Previous HEAD position was 2eac9a0 Undo Bump actions/setup-java from 3.6.0 to 3.7.0
+HEAD is now at 1b105f9 Bump actions/setup-java from 3.6.0 to 3.7.0 #126
+Revision Build sucessful. Running babelRTS
+Mutation Number:  0  Revision:  1b105f9fd45e6890de0191cb2e718e9c6fee98c9
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'OptionGroup.java']  Line Count  155
+Eligible line:              selected = null;
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  3
+Rel Path:  src/main/java/org/apache/commons/cli/OptionGroup.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  1  error_by_babelRTS  0  failure_by_babelRTS  1
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  1  Revision:  1b105f9fd45e6890de0191cb2e718e9c6fee98c9
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'DefaultParser.java']  Line Count  776
+Eligible line:          final int pos = token.indexOf('=');
+
+Build failed for mutated program
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  2  Revision:  1b105f9fd45e6890de0191cb2e718e9c6fee98c9
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'OptionGroup.java']  Line Count  155
+Eligible line:    (the "License"); you may not use this file except in compliance with
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  3  Revision:  1b105f9fd45e6890de0191cb2e718e9c6fee98c9
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'MissingArgumentException.java']  Line Count  61
+Eligible line:          this.option = option;
+
+Build successful for mutated program. Now test execution
+Found error+failure in Mutant. Current Killable mutant  4
+Rel Path:  src/main/java/org/apache/commons/cli/MissingArgumentException.java  Lang:  java
+Testlog from babelRTS changed file 
+mut_error_failure_by_babelRTS  8  error_by_babelRTS  1  failure_by_babelRTS  7
+Returning to UnMutated versiob
+Updated 1 path from the index
+Mutation Number:  4  Revision:  1b105f9fd45e6890de0191cb2e718e9c6fee98c9
+File List Len : 23
+Selected File  ['/s/chopin/a/grad/rakibul/cs514/commons-cli/src/main/java/org/apache/commons/cli', 'UnrecognizedOptionException.java']  Line Count  63
+Eligible line:    the License.  You may obtain a copy of the License at
+
+Build successful for mutated program. Now test execution
+Mutation has no effect. No test fail while running all_test
+Returning to UnMutated versiob
+Updated 1 path from the index
+---------------------------summary-------------------
+Killeable Mutants:  4
+Killed Mutants:  4
+mutatedButNotCompiled:  0
+Total Attempts:  10
+killed/killable:  100.0
+           Project Name Language                                  revision  isRevCompileable  isRevTestSuccess  No of Files  ... isKillableMutant Mut All Test Error  Mut All Test Failure  BRTS Error  BRTS Failure  isKilledByBRTS
+0   commons-collections     java  a1de787172664a63fd172571fc9779137568ece4                 1                 1          343  ...                0                  0                     0           0             0               0
+1   commons-collections     java  a1de787172664a63fd172571fc9779137568ece4                 1                 1          343  ...                0                  0                     0           0             0               0
+2   commons-collections     java  a1de787172664a63fd172571fc9779137568ece4                 1                 1          343  ...                0                  0                     0           0             0               0
+3   commons-collections     java  a1de787172664a63fd172571fc9779137568ece4                 1                 1          343  ...                0                  0                     0           0             0               0
+4   commons-collections     java  a1de787172664a63fd172571fc9779137568ece4                 1                 1          343  ...                0                  0                     0           0             0               0
+5   commons-collections     java  5bcab481f7e9673ef56bee333d90ef1b11ae2579                 1                 1          343  ...                0                  0                     0           0             0               0
+6   commons-collections     java  5bcab481f7e9673ef56bee333d90ef1b11ae2579                 1                 1          343  ...                0                  0                     0           0             0               0
+7   commons-collections     java  5bcab481f7e9673ef56bee333d90ef1b11ae2579                 1                 1          343  ...                0                  0                     0           0             0               0
+8   commons-collections     java  5bcab481f7e9673ef56bee333d90ef1b11ae2579                 1                 1          343  ...                0                  0                     0           0             0               0
+9   commons-collections     java  5bcab481f7e9673ef56bee333d90ef1b11ae2579                 1                 1          343  ...                0                  0                     0           0             0               0
+10          commons-cli     java  2eac9a0a75966671d2ccfe052331f6620c56d334                 1                 1           23  ...                1                 14                     0          14             0               1
+11          commons-cli     java  2eac9a0a75966671d2ccfe052331f6620c56d334                 1                 1           23  ...                1                 57                    30          11             4               1
+12          commons-cli     java  2eac9a0a75966671d2ccfe052331f6620c56d334                 1                 1           23  ...                0                  0                     0           0             0               0
+13          commons-cli     java  2eac9a0a75966671d2ccfe052331f6620c56d334                 1                 1           23  ...                0                  0                     0           0             0               0
+14          commons-cli     java  2eac9a0a75966671d2ccfe052331f6620c56d334                 1                 1           23  ...                0                  0                     0           0             0               0
+15          commons-cli     java  1b105f9fd45e6890de0191cb2e718e9c6fee98c9                 1                 1           23  ...                1                  0                     1           0             1               1
+16          commons-cli     java  1b105f9fd45e6890de0191cb2e718e9c6fee98c9                 1                 1           23  ...                0                  0                     0           0             0               0
+17          commons-cli     java  1b105f9fd45e6890de0191cb2e718e9c6fee98c9                 1                 1           23  ...                0                  0                     0           0             0               0
+18          commons-cli     java  1b105f9fd45e6890de0191cb2e718e9c6fee98c9                 1                 1           23  ...                1                  1                     7           1             7               1
+19          commons-cli     java  1b105f9fd45e6890de0191cb2e718e9c6fee98c9                 1                 1           23  ...                0                  0                     0           0             0               0
+
+[20 rows x 15 columns]
+Traceback (most recent call last):
+  File "/s/chopin/a/grad/rakibul/cs514/evalBabelRTS.py", line 547, in <module>
+    pandasDF.to_excel('Result.xlsx')
+  File "/usr/local/anaconda3/latest/lib/python3.9/site-packages/pandas/core/generic.py", line 2345, in to_excel
+    formatter.write(
+  File "/usr/local/anaconda3/latest/lib/python3.9/site-packages/pandas/io/formats/excel.py", line 888, in write
+    writer = ExcelWriter(  # type: ignore[abstract]
+  File "/usr/local/anaconda3/latest/lib/python3.9/site-packages/pandas/io/excel/_openpyxl.py", line 49, in __init__
+    from openpyxl.workbook import Workbook
+ModuleNotFoundError: No module named 'openpyxl'
+concord:~/cs514$ pip3 install --user openpyxl
+Collecting openpyxl
+  Downloading openpyxl-3.0.10-py2.py3-none-any.whl (242 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 242.1/242.1 kB 11.0 MB/s eta 0:00:00                                                                                                                                                                            
+Collecting et-xmlfile
+  Downloading et_xmlfile-1.1.0-py3-none-any.whl (4.7 kB)
+Installing collected packages: et-xmlfile, openpyxl
+Successfully installed et-xmlfile-1.1.0 openpyxl-3.0.10
+concord:~/cs514$ 
